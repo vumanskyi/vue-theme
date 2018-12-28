@@ -1,0 +1,56 @@
+header {
+  background: $bg-color;
+  color: $w-color;
+  a {
+    color: $w-color;
+    text-decoration: none;
+    &:hover {
+      color: $w-color;
+    }
+  }
+  .navbar-brand {
+    span {
+      padding: 0 1rem;
+      color: $brand-color;
+    }
+  }
+}
+
+#sidebar {
+  border-right: 3px solid $bg-color;
+  position: fixed;
+  top:55px;
+  bottom: 0;
+  padding: 15px;
+
+  .profile-sidebar {
+    border-bottom: 1px solid #e9ecf2;
+    padding: 10px 0;
+    .profile-title {
+      .online, .offline {
+        position: relative;
+        &::before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          background: #8ad919;
+          position: absolute;
+          left: -15px;
+          top: 7px;
+          @include border-radius(50%);
+        }
+      }
+
+      .offline {
+        &::before {
+          background: red;
+        }
+      }
+    }
+  }
+
+  .search-menu {
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+}
