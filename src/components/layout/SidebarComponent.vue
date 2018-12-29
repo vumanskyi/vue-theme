@@ -3,18 +3,21 @@
 
         <ProfileComponent/>
         <SearchComponent/>
+        <ListComponent/>
     </div>
 </template>
 
 <script>
     import ProfileComponent from './sidebar/ProfileComponent';
     import SearchComponent from './sidebar/SearchComponent';
+    import ListComponent from './sidebar/ListComponent';
 
     export default {
         name: "SidebarComponent",
         components: {
             ProfileComponent,
-            SearchComponent
+            SearchComponent,
+            ListComponent
         }
     }
 </script>

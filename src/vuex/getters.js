@@ -10,7 +10,7 @@ export default {
     },
     getProfileStatus(state) {
         let status = state.status;
-        console.log(status);
+
         if (!status) {
             return 'offline';
         }
@@ -20,5 +20,8 @@ export default {
     },
     getProfileImage(state) {
         return state.profile_image;
+    },
+    getSidebarList(state) {
+        return state.sidebar_list;
     }
 }
