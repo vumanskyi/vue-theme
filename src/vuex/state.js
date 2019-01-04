@@ -31,19 +31,19 @@ export default {
             children: [
                 {
                     name: 'Subitem1',
-                    icon:'',
+                    icon:'fa fa-arrow-right',
                     link: '#',
                     active: 1
                 },
                 {
                     name: 'Subitem2',
-                    icon:'',
+                    icon:'fa fa-arrow-right',
                     link: '#',
                     active: 1
                 },
                 {
                     name: 'Subitem3',
-                    icon:'',
+                    icon:'fa fa-arrow-right',
                     link: '#',
                     active: 1
                 }
