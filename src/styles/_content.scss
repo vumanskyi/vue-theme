@@ -1,6 +1,7 @@
 header {
   background: $bg-color;
   color: $w-color;
+  width: 100%;
   a {
     color: $w-color;
     text-decoration: none;
@@ -16,14 +17,13 @@ header {
   }
 }
 
-#sidebar {
+.sidebar {
+  text-align: center;
   border-right: 3px solid $bg-color;
-  position: fixed;
-  top:55px;
   bottom: 0;
   padding: 15px 0;
   overflow-y: scroll;
-
+  height: 100vh;
   ul {
     list-style: none;
   }
@@ -98,6 +98,10 @@ header {
       }
     }
   }
+}
+
+.page-title {
+  margin: 25px 10px;
 }
 
 .hide {
