@@ -1,7 +1,13 @@
+body {
+  padding-top: 56px;
+}
+
 header {
-  background: $bg-color;
-  color: $w-color;
   width: 100%;
+  & > nav {
+    background: $bg-color;
+    color: $w-color;
+  }
   a {
     color: $w-color;
     text-decoration: none;
@@ -20,10 +26,12 @@ header {
 .sidebar {
   text-align: center;
   border-right: 3px solid $bg-color;
+  position: fixed;
+  top: 56px;
   bottom: 0;
   padding: 15px 0;
   overflow-y: scroll;
-  height: 100vh;
+
   ul {
     list-style: none;
   }
@@ -100,10 +108,82 @@ header {
   }
 }
 
+
+.panel-widget {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.panel-container {
+  padding-top: 20px;
+}
+
+.panel-widget {
+  padding: 10px 0;
+  position: relative;
+  box-shadow: none;
+  border-radius: 0;
+  background: none;
+  text-align: center;
+  color: #333;
+  .large {
+    color: #373b45;
+    font-size: 3em;
+    width: 100%;
+  }
+  .text-muted {
+    margin-top: -6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 100%;
+  }
+}
+
+.color-blue {
+  color: #30a5ff;
+}
+
+.color-orange {
+  color: #ffb53e;
+}
+
+.color-teal {
+  color: #1ebfae;
+}
+
+.color-red {
+  color: #f9243f;
+}
+
 .page-title {
   margin: 25px 10px;
 }
 
 .hide {
   display: none;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.border-right {
+  border-right: 1px solid #2f2f2f;
 }

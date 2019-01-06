@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-custom fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="true"><span class="sr-only">Toggle navigation</span>-->

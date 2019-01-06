@@ -1,11 +1,11 @@
 export const LINE_CONFIG = {
     type: 'line',
     data: {
-        labels: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'],
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
         datasets: [
             { // one line graph
-                label: 'Number of Moons',
-                data: [0, 0, 1, 2, 67, 62, 27, 14],
+                label: 'Traffic',
+                data: [250, 200, 150, 170, 100, 90, 100, 50],
                 backgroundColor: [
                     'rgba(54,73,93,.5)', // Blue
                     'rgba(54,73,93,.5)',
@@ -27,17 +27,6 @@ export const LINE_CONFIG = {
                     '#36495d',
                 ],
                 borderWidth: 3
-            },
-            { // another line graph
-                label: 'Planet Mass (x1,000 km)',
-                data: [4.8, 12.1, 12.7, 6.7, 139.8, 116.4, 50.7, 49.2],
-                backgroundColor: [
-                    'rgba(71, 183,132,.5)', // Green
-                ],
-                borderColor: [
-                    '#47b784',
-                ],
-                borderWidth: 3
             }
         ]
     },
@@ -48,7 +37,7 @@ export const LINE_CONFIG = {
             yAxes: [{
                 ticks: {
                     beginAtZero: true,
-                    padding: 25,
+                    padding: 10,
                 }
             }]
         }
