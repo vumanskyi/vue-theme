@@ -9,10 +9,10 @@
                 <ChildrenIListComponent :isActive.sync="isActive" v-if="list.children" :list="list.children"/>
             </div>
             <div v-else>
-                <a :href="list.link">
+                <router-link :to="list.link.toLowerCase().trim().replace(' ', '_')">
                     <IconComponent v-if="list.icon" :item="list.icon"/>
                     {{list.name}}
-                </a>
+                </router-link>
             </div>
         </li>
     </ul>

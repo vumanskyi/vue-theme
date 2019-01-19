@@ -1,6 +1,5 @@
 <template>
     <div id="sidebar" class="col-sm-3 col-lg-2 sidebar">
-
         <ProfileComponent/>
         <SearchComponent/>
         <ListComponent/>

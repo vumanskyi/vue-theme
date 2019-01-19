@@ -8,19 +8,19 @@ export default {
         {
             name: 'Dashboard',
             icon: 'fa fa-tachometer',
-            link: '#',
+            link: '/dashboard',
             active: 1,
         },
         {
             name: 'Widjets',
             icon: 'fa fa-table',
-            link: '#',
+            link: '/widjets',
             active: 1,
         },
         {
             name: 'Charts',
             icon: 'fa fa-pie-chart',
-            link: '#',
+            link: '/charts',
             active: 1,
         },
         {
@@ -52,7 +52,7 @@ export default {
         {
             name: 'UI Elements',
             icon: 'fa fa-toggle-on',
-            link: '#',
+            link: '/ui_elements',
             active: 1,
         }
     ]
